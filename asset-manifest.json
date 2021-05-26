@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/autovrse-threed-app/static/css/main.f25f3a58.chunk.css",
+    "main.js": "/autovrse-threed-app/static/js/main.a954a22c.chunk.js",
+    "main.js.map": "/autovrse-threed-app/static/js/main.a954a22c.chunk.js.map",
+    "runtime-main.js": "/autovrse-threed-app/static/js/runtime-main.634a747e.js",
+    "runtime-main.js.map": "/autovrse-threed-app/static/js/runtime-main.634a747e.js.map",
+    "static/js/2.d692d205.chunk.js": "/autovrse-threed-app/static/js/2.d692d205.chunk.js",
+    "static/js/2.d692d205.chunk.js.map": "/autovrse-threed-app/static/js/2.d692d205.chunk.js.map",
+    "index.html": "/autovrse-threed-app/index.html",
+    "static/css/main.f25f3a58.chunk.css.map": "/autovrse-threed-app/static/css/main.f25f3a58.chunk.css.map",
+    "static/js/2.d692d205.chunk.js.LICENSE.txt": "/autovrse-threed-app/static/js/2.d692d205.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.634a747e.js",
+    "static/js/2.d692d205.chunk.js",
+    "static/css/main.f25f3a58.chunk.css",
+    "static/js/main.a954a22c.chunk.js"
+  ]
+}
