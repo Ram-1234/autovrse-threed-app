@@ -26,7 +26,7 @@ const Sphere=({position, color})=>{
   const props=useSpring({scale: expand ? [1.4,1.4,1.4]:[1,1,1],})
   return (
        <a.mesh onClick={()=>setExpand(!expand)} scale={props.scale} position={position} ref={mesh}>
-         <sphereBufferGeometry attach="geometry" args={[2,10,100]} />
+         <sphereBufferGeometry attach="geometry" args={[2,70,50]} />
          <meshStandardMaterial attach="material" color={color} />
        </a.mesh>     
   );
