@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/autovrse-threed-app/static/css/main.f25f3a58.chunk.css",
-    "main.js": "/autovrse-threed-app/static/js/main.b04dea90.chunk.js",
-    "main.js.map": "/autovrse-threed-app/static/js/main.b04dea90.chunk.js.map",
+    "main.js": "/autovrse-threed-app/static/js/main.c29e05aa.chunk.js",
+    "main.js.map": "/autovrse-threed-app/static/js/main.c29e05aa.chunk.js.map",
     "runtime-main.js": "/autovrse-threed-app/static/js/runtime-main.634a747e.js",
     "runtime-main.js.map": "/autovrse-threed-app/static/js/runtime-main.634a747e.js.map",
     "static/js/2.d692d205.chunk.js": "/autovrse-threed-app/static/js/2.d692d205.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.634a747e.js",
     "static/js/2.d692d205.chunk.js",
     "static/css/main.f25f3a58.chunk.css",
-    "static/js/main.b04dea90.chunk.js"
+    "static/js/main.c29e05aa.chunk.js"
   ]
 }
