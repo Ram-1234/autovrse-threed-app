@@ -5,7 +5,6 @@ import {useSpring,a} from "@react-spring/three"
 
 import './App.css';
 
-
 const Box=({position,color})=>{
   const mesh=useRef(null);
   useFrame(()=>(mesh.current.rotation.z = mesh.current.rotation.x = mesh.current.rotation.y +=0.01));
@@ -21,12 +20,12 @@ const Box=({position,color})=>{
 
 const Sphere=({position, color})=>{
   const mesh=useRef(null);
-  useFrame(()=>(mesh.current.rotation.z = mesh.current.rotation.x = mesh.current.rotation.y +=0.01));
+  useFrame(()=>(mesh.current.rotation.z = mesh.current.rotation.x = mesh.current.rotation.y +=0.07));
   const [expand, setExpand]=useState(false);
   const props=useSpring({scale: expand ? [1.4,1.4,1.4]:[1,1,1],})
   return (
        <a.mesh onClick={()=>setExpand(!expand)} scale={props.scale} position={position} ref={mesh}>
-         <sphereBufferGeometry attach="geometry" args={[2,70,50]} />
+         <sphereBufferGeometry attach="geometry" args={[2,100,100]} />
          <meshStandardMaterial attach="material" color={color} />
        </a.mesh>     
   );
